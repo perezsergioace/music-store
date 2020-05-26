@@ -202,8 +202,11 @@ ul li {
 	font-size: 1.5rem;
 	cursor: pointer;
 	margin-top: 4rem;
+	transition: all 0.3s;
 }
-
+.btn-try-now:hover {
+	transform: translateY(-5px);
+}
 .features {
 	display: flex;
 	width: 90%;
