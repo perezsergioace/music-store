@@ -52,6 +52,10 @@ nav {
 	margin: 0 auto;
 }
 
+.logo {
+	border-bottom: 1.5px solid black;
+}
+
 ul {
 	display: flex;
 }
@@ -151,6 +155,7 @@ ul li {
 	justify-content: center;
 	width: 90%;
 	margin: auto;
+	margin-bottom: 10rem;
 }
 
 .album-covers img {
@@ -162,6 +167,40 @@ ul li {
 
 .album-covers img:hover {
 	transform: translateY(-10px);
+}
+
+.ad1 {
+	height: 100vh;
+	background-color: #ff3cac;
+	background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+
+.ad1 h2 {
+	font-size: 5rem;
+}
+
+.ad1 p {
+	font-size: 3rem;
+	margin: 1rem 0;
+}
+
+.btn-try-now {
+	width: 20rem;
+	height: 4rem;
+	padding: 1rem;
+	border-radius: 50px;
+	background-color: #21d4fd;
+	background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
