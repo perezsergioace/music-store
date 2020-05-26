@@ -204,6 +204,47 @@ ul li {
 	margin-top: 4rem;
 }
 
+footer {
+	background-color: #477987;
+	/* height: 60vh; */
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+	margin: 0 auto;
+	padding: 4rem;
+}
+
+footer ul {
+	display: block;
+}
+
+.footer-1 {
+	margin-right: 40rem;
+}
+
+.footer-1 ul li {
+	padding: 1rem;
+}
+
+.footer-2 ul li {
+	padding: 1rem;
+}
+
+.footer-1 ul li a {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+
+.footer-2 ul li a {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+
 @media screen and (max-width: 1200px) {
 	html {
 		font-size: 55%;
@@ -232,5 +273,9 @@ ul li {
 	.image-3 {
 		grid-column: 1 / 2;
 		grid-row: 3 / 4;
+	}
+
+	.footer-1 {
+		margin-right: 10rem;
 	}
 }
