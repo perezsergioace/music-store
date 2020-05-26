@@ -134,6 +134,30 @@ ul li {
 	height: 100%;
 }
 
+.albums-title {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	font-size: 1.2rem;
+}
+
+.album-covers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 85%;
+	margin: auto;
+}
+
+.album-covers img {
+	height: 20rem;
+	width: 20rem;
+	padding: 1rem;
+}
+
 @media screen and (max-width: 1200px) {
 	html {
 		font-size: 55%;
