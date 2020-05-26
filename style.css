@@ -156,6 +156,11 @@ ul li {
 	height: 20rem;
 	width: 20rem;
 	padding: 1rem;
+	transition: all 0.5s;
+}
+
+.album-covers img:hover {
+	transform: translateY(-10px);
 }
 
 @media screen and (max-width: 1200px) {
