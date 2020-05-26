@@ -156,7 +156,7 @@ ul li {
 	height: 20rem;
 	width: 20rem;
 	padding: 1rem;
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 
 .album-covers img:hover {
